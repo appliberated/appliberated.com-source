@@ -1,0 +1,35 @@
+a.btn {
+  text-decoration: none;
+}
+
+.aa-page-title {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+
+.aa-long-title {
+    font-size: 5rem;
+}
+
+.aa-page-title-divider {
+    margin: 15px auto;
+    border-width: 4px;
+}
+
+
+.aa-third-logo {
+    background: #fff;
+    padding: 1rem;
+    width: 200px;
+}
+
+.review cite {
+    display: block;
+}
+
+.aa-mb {
+    margin-bottom: 60px;
+}

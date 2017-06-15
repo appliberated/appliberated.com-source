@@ -1,0 +1,6 @@
+baseurl = "https://appliberated.com/"
+title = "Appliberated"
+languageCode = "en-us"
+
+disableKinds=["RSS"]
+googleAnalytics = "UA-24924400-1"

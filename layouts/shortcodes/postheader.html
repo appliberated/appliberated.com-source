@@ -1,0 +1,16 @@
+<!-- Post Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header" style="background-image: linear-gradient(rgba(0, 0, 0, {{ .Get "opacity" }}), rgba(0, 0, 0, {{ .Get "opacity" }})), url('{{ .Site.BaseURL }}{{ .Get "bgimage" }}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <p class="aa-page-title {{ if .Get "longtitle" }}aa-long-title{{ end }}">{{ .Get "title" }}</p>
+                    <hr class="aa-page-title-divider">
+                    <h1>{{ .Get "heading" }}</h1>
+                    <h2 class="subheading">{{ .Get "subheading" }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
