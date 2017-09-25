@@ -4,6 +4,16 @@ body {
     font-size: 1.25rem;
 }
 
+a {
+    color: #333333;
+    transition: all 0.2s;
+}
+
+a:focus, a:hover {
+    color: #0085A1;
+}
+
+
 p {
     margin-bottom: 2rem;
 }
@@ -63,19 +73,28 @@ blockquote cite {
     text-decoration: underline; 
 }
 
-.apl-link, .apl-link-muted {
-    color: #333333;
-    transition: all 0.2s;
-}
-
-.apl-link:focus, .apl-link:hover, .apl-link-muted:focus, .apl-link-muted:hover {
+/* .apl-link:focus, .apl-link:hover, .apl-link-muted:focus, .apl-link-muted:hover {
     color: #0085A1;
-}
+} */
 
 
 .apl-third-logo {
     margin: 1rem 0;
     width: 200px;
+}
+
+
+.apl-site-footer {
+    padding: 3.125rem 0 4.0625rem;
+}
+
+.apl-site-footer nav a {
+    margin: 0 0.3125rem;
+}
+
+.apl-copyright {
+    font-size: 0.875rem;
+    margin-bottom: 0;
 }
 
 
