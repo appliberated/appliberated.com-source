@@ -1,8 +1,92 @@
 body {
-    font-family: 'Space Mono', monospace;
+    color: #333333;
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 1.25rem;
 }
 
-a {
+p {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+blockquote {
+    border-left: 5px solid #eee;
+    color: #777777;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: .625rem 1.25rem;
+}
+
+blockquote cite {
+    display: block;
+}
+
+
+.btn {
+    border-radius: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    
+    /* font-size: 14px;
+    padding: 15px 25px; */
+    
+}
+
+
+
+.apl-section {
+    margin-bottom: 4rem;
+}
+
+.apl-section-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.apl-subheading {
+    margin-bottom: 1rem;
+}
+
+
+/* Links */
+
+.apl-link {
+    text-decoration: underline; 
+}
+
+.apl-link, .apl-link-muted {
+    color: #333333;
+    transition: all 0.2s;
+}
+
+.apl-link:focus, .apl-link:hover, .apl-link-muted:focus, .apl-link-muted:hover {
+    color: #0085A1;
+}
+
+
+.apl-third-logo {
+    margin: 1rem 0;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+/* a {
     color: #000;
     border-bottom: 1px dotted #000;
 }
@@ -11,7 +95,7 @@ a:hover {
     color: #000;
     border-bottom: 1px solid #000;
     text-decoration: none;
-}
+} */
 
 
 /* Navbar */
@@ -32,9 +116,9 @@ a:hover {
     margin-bottom: 5rem;
 }
 
-.btn {
+/* .btn {
     padding: 1rem 2rem;
-}
+} */
 
 
 
@@ -44,10 +128,6 @@ a:hover {
 
 .apl-jumbotron-image:hover {
     filter: blur(0px);
-}
-
-.apl-content-text {
-    font-size: 1.5rem;
 }
 
 .apl-eod {
