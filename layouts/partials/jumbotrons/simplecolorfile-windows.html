@@ -1,0 +1,7 @@
+{{ $backgroundurl := "/img/apps/simplecolorfile/windows/simplecolorfile-jumbotron-background.jpg" }}
+{{ $title := "Simple Color File" }}
+{{ $subtitle := "Save and share colors in tiny portable HTML files" }}
+{{ $extra := "For Windows. Open source on <a href='https://github.com/appliberated/SimpleColorFile' target='_blank'>GitHub</a>." | safeHTML }}
+{{ $buttonlink := "/simplecolorfile/windows/download/" }}
+{{ $buttontext := "Free Download" }}
+{{ partial "jumbotrons/template.html" (dict "backgroundurl" $backgroundurl "title" $title "subtitle" $subtitle "extra" $extra "buttonlink" $buttonlink "buttontext" $buttontext ) }}
