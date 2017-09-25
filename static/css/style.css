@@ -50,6 +50,22 @@ blockquote cite {
     
 }
 
+
+/* Navbar */
+
+.navbar {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #fff!important;    
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding: 1rem 1.25rem!important;    
+    text-transform: uppercase;
+}
+
 /* Jumbotron */
 
 .jumbotron .row {
@@ -57,7 +73,7 @@ blockquote cite {
 }
 
 .apl-jumbotron-title {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 3.75rem;
     font-weight: 800;
     margin-bottom: 0;
@@ -152,9 +168,6 @@ a:hover {
     /* border-bottom: 1px solid #fff; */
 }
 
-.nav-item {
-    padding: 1rem 1.5rem!important;
-}
 
 
 .jumbotron {
@@ -169,19 +182,6 @@ a:hover {
     margin-bottom: 5rem;
 }
 
-/* .btn {
-    padding: 1rem 2rem;
-} */
-
-
-
-.apl-jumbotron-image {
-    /* filter: blur(2px); */
-}
-
-.apl-jumbotron-image:hover {
-    filter: blur(0px);
-}
 
 .apl-eod {
     margin-bottom: 3rem;
