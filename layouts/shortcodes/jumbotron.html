@@ -1,0 +1,37 @@
+{{ $background := .Get "background" }}
+{{ $simple := .Get "simple" }}
+{{ $title := .Get "title" }}
+{{ $titleurl := .Get "titleurl" }}
+{{ $subtitle := .Get "subtitle" }}
+{{ $extra := .Get "extra" }}
+{{ $buttonurl := .Get "buttonurl" }}
+{{ $buttontext := .Get "buttontext" }}
+
+<div class="jumbotron jumbotron-fluid {{ with $simple }}apl-jumbotron-simple{{ end }}"{{ with $background }} style="background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url('{{ . }}')"{{ end }}>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+
+                {{ with $title }}
+                <p class="apl-jumbotron-title">
+                    {{ with $titleurl }}<a href="{{ .}}">{{ end }}
+                        {{ $title }}
+                    {{ with $titleurl }}</a>{{ end }}
+                </p>
+                {{ end }}
+
+                {{ with $subtitle }}<h1 class="apl-jumbotron-subtitle">{{ . }}</h1>{{ end }}
+                {{ with $extra }}<p class="apl-jumbotron-extra">{{ . }}</p>{{ end }}
+
+                {{ with $buttontext }}
+                <p>
+                    {{ with $buttonurl }}<a class="btn btn-primary" href="{{ . }}" role="button">{{ end }}
+                        {{ $buttontext }}
+                    {{ with $buttonurl }}</a>{{ end }}
+                </p>
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+</div>

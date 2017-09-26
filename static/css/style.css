@@ -102,6 +102,21 @@ blockquote cite {
     color: #fff;
 }
 
+/* Jumbotron - Simple */
+
+.apl-jumbotron-simple {
+    text-align: center;
+}
+
+.apl-jumbotron-simple .apl-jumbotron-title {
+    font-size: 5rem;
+}
+
+.apl-jumbotron-simple .apl-jumbotron-extra {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;    
+    font-size: 1.5rem;
+    font-style: normal;
+}
 
 
 .apl-section {
@@ -152,8 +167,25 @@ blockquote cite {
 }
 
 
+/* Forms */
 
+.form-group {
+}
 
+.form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+    padding: 1rem 0;
+}
+
+input.form-control, textarea.form-control {
+    font-size: 1.25rem;
+}
+
+textarea.form-control {
+    resize: none;
+}
 
 
 
@@ -184,8 +216,8 @@ a:hover {
 .jumbotron {
 
     background: no-repeat center center;
-    background-color: #777777;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85)), url('https://anaurelian.com/img/pages/home/intro-background.jpg');
+    background-color: #000;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85)), url('https://anaurelian.com/img/pages/home/intro-background.jpg'); */
     background-attachment: scroll;
     background-size: cover;
 
