@@ -1,7 +1,8 @@
 {{ $backgroundurl := "/img/apps/beepchecker/windows/beepchecker-jumbotron-background.jpg" }}
 {{ $title := "BeepChecker" }}
+{{ $titleurl := "/beepchecker/windows/" }}
 {{ $subtitle := "Play, test or learn the beeps of your PC" }}
 {{ $extra := "For Windows. Open source on <a href='https://github.com/appliberated/BeepChecker' target='_blank'>GitHub</a>." | safeHTML }}
 {{ $buttonlink := "/beepchecker/windows/download/" }}
 {{ $buttontext := "Free Download" }}
-{{ partial "jumbotrons/template.html" (dict "backgroundurl" $backgroundurl "title" $title "subtitle" $subtitle "extra" $extra "buttonlink" $buttonlink "buttontext" $buttontext ) }}
+{{ partial "jumbotrons/template.html" (dict "backgroundurl" $backgroundurl "title" $title "titleurl" $titleurl "subtitle" $subtitle "extra" $extra "buttonlink" $buttonlink "buttontext" $buttontext ) }}

@@ -14,7 +14,7 @@ a:focus, a:hover {
 }
 
 
-p {
+p, ul {
     margin-bottom: 2rem;
 }
 
@@ -115,6 +115,8 @@ blockquote cite {
 }
 
 .apl-subheading {
+    font-size: 1.5rem;
+    font-weight: 800;
     margin-bottom: 1rem;
 }
 
