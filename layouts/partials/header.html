@@ -24,9 +24,9 @@
         {{ template "_internal/google_analytics.html" . }} 
     {{ end }}
 </head>
-<body>
+<body{{ with .Params.section }} class="apl-section-{{ . }}"{{ end }}>
 
-    <header class="apl-site-header"{{ with .Params.headerbackground }} style="background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('{{ . }}')"{{ end }}>
+    <header class="apl-site-header">
 
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark">

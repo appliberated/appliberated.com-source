@@ -55,10 +55,19 @@ blockquote cite {
 
 .apl-site-header {
     background: no-repeat center center;
-    background-color: #000;
     background-attachment: scroll;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/img/site/appliberated-header-background.jpg");
     background-size: cover;
 
+}
+
+.apl-section-beepchecker .apl-site-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/img/apps/beepchecker/windows/beepchecker-header-background.jpg");
+}
+
+.apl-section-simplecolorfile .apl-site-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("/img/apps/simplecolorfile/windows/simplecolorfile-header-background.jpg");
 }
 
 /* Navbar */
