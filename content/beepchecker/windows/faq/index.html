@@ -1,13 +1,15 @@
 ---
 title: "BeepChecker Frequently Asked Questions"
 description: ""
+
+headerbackground: "/img/apps/beepchecker/windows/beepchecker-jumbotron-background.jpg"
 ---
 
-{{< partial "jumbotrons/beepchecker-windows" >}}
+{{< jumbotron title="BeepChecker" titleurl="/beepchecker/windows/" subtitle="FAQ" buttontext="Free Download" buttonurl="/beepchecker/windows/download/" >}}
 
 {{< wrapper >}}
     <section class="apl-section">
-        <h2 class="apl-section-heading">BeepChecker FAQ</h2>
+        <h2 class="apl-section-heading">Frequently Asked Questions</h2>
 
         <h3 class="apl-subheading">I'm hearing beeps when I click the description label next to the Play button. Is this a bug, or is this by design?</h3>
         <p>This feature is by design. For technical users, BeepChecker has a double verification hidden feature: clicking the Play button will play the corresponding beep sound using the <a class="apl-link" href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms680356(v=vs.85).aspx" target="_blank">Windows native API</a>, while clicking the description label will play the beep using a <a class="apl-link" href="http://msdn.microsoft.com/en-us/library/system.media.systemsounds(v=vs.80).aspx" target="_blank">.NET Framework class</a>. (Nevertheless, the beep should sound the same. If it doesn't, the PC configuration is worth investigating, and Microsoft Support is worth informing.)</p>

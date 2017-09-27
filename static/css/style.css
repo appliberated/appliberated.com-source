@@ -51,6 +51,16 @@ blockquote cite {
 }
 
 
+/* Site Header */
+
+.apl-site-header {
+    background: no-repeat center center;
+    background-color: #000;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
 /* Navbar */
 
 .navbar {
@@ -73,6 +83,12 @@ blockquote cite {
 
 /* Jumbotron */
 
+.jumbotron {
+    background: transparent;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
 .jumbotron .row {
     padding: 2.5rem 0;
 }
@@ -86,6 +102,11 @@ blockquote cite {
 
 .apl-jumbotron-title a {
     color: #fff;
+}
+
+.apl-jumbotron-title a:hover {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
 }
 
 .apl-jumbotron-subtitle {
@@ -146,6 +167,9 @@ blockquote cite {
     color: #0085A1;
 } */
 
+.apl-link-title:hover {
+    text-decoration: none;
+}
 
 .apl-third-logo {
     margin: 1rem 0;
@@ -213,17 +237,7 @@ a:hover {
 
 
 
-.jumbotron {
 
-    background: no-repeat center center;
-    background-color: #000;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85)), url('https://anaurelian.com/img/pages/home/intro-background.jpg'); */
-    background-attachment: scroll;
-    background-size: cover;
-
-    color: #fff;
-    margin-bottom: 5rem;
-}
 
 
 .apl-eod {

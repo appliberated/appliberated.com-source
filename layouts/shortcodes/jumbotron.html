@@ -1,4 +1,3 @@
-{{ $background := .Get "background" }}
 {{ $simple := .Get "simple" }}
 {{ $title := .Get "title" }}
 {{ $titleurl := .Get "titleurl" }}
@@ -7,7 +6,7 @@
 {{ $buttonurl := .Get "buttonurl" }}
 {{ $buttontext := .Get "buttontext" }}
 
-<div class="jumbotron jumbotron-fluid {{ with $simple }}apl-jumbotron-simple{{ end }}"{{ with $background }} style="background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.25)), url('{{ . }}')"{{ end }}>
+<div class="jumbotron jumbotron-fluid {{ with $simple }}apl-jumbotron-simple{{ end }}">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10">
@@ -20,8 +19,8 @@
                 </p>
                 {{ end }}
 
-                {{ with $subtitle }}<h1 class="apl-jumbotron-subtitle">{{ . }}</h1>{{ end }}
-                {{ with $extra }}<p class="apl-jumbotron-extra">{{ . }}</p>{{ end }}
+                {{ with $subtitle }}<h1 class="apl-jumbotron-subtitle">{{ . | safeHTML }}</h1>{{ end }}
+                {{ with $extra }}<p class="apl-jumbotron-extra">{{ . | safeHTML }}</p>{{ end }}
 
                 {{ with $buttontext }}
                 <p>
@@ -35,3 +34,5 @@
         </div>
     </div>
 </div>
+
+</header> <!-- .apl-site-header -->
