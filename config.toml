@@ -2,5 +2,5 @@ baseurl = "https://appliberated.com/"
 title = "Appliberated"
 languageCode = "en-us"
 
-disableKinds=["RSS"]
+disableKinds=["RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-24924400-1"
