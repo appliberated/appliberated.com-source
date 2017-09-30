@@ -1,0 +1,12 @@
+{{ $url := .Get "url" }}
+{{ $img := .Get "img" }}
+{{ $width := .Get "width" }}
+{{ $alt := .Get "alt" }}
+
+<div class="col-sm apl-tlogo-col">
+    {{ with $url }}<a href="{{ . }}" target="_blank">{{ end }}
+        {{ with $img }}
+        <img {{ with $width }} width="{{ . }}" {{ end }} class="img-fluid apl-tlogo" src="{{ . }}" {{ with $alt }} alt="{{ . }}" title="{{ . }}" {{ end }}/>
+        {{ end }}
+    {{ with $url }}</a>{{ end }}
+</div>

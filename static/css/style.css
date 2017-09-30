@@ -179,10 +179,7 @@ blockquote cite {
     text-decoration: none;
 }
 
-.apl-third-logo {
-    margin: 1rem 0;
-    width: 200px;
-}
+
 
 
 .apl-site-footer {
@@ -234,20 +231,33 @@ textarea.form-control {
     resize: none;
 }
 
+/* Third Party Logos */
 
-
-
-
-/* a {
-    color: #000;
-    border-bottom: 1px dotted #000;
+.apl-tlogo {
+    margin: 2rem 0;
 }
 
-a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
-    text-decoration: none;
-} */
+.apl-tlogo-grid {
+    text-align: center;
+}
+
+.apl-tlogo-grid .row {
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.apl-tlogo-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apl-tlogo-grid-bordered .apl-tlogo-col {
+    outline: 1px dotted rgba(0, 0, 0, .1);
+    outline-offset: -5px;
+}
+
+
 
 
 /* Navbar */
