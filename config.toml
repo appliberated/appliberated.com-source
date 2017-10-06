@@ -1,6 +1,9 @@
-baseurl = "https://appliberated.com/"
+baseurl = "https://www.appliberated.com/"
+canonifyURLs = true
 title = "Appliberated"
 languageCode = "en-us"
 
 disableKinds=["RSS", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-24924400-1"
+
+publishDir = "../../Public/GitRepository" 
